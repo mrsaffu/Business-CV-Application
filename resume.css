@@ -1,0 +1,432 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+/* ***************First section start here ********************************************** */
+
+body{
+    /* height: 300vmax; */
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+    background-color: rgb(230 218 206);
+
+}
+
+.sec1{
+    /* border: 2px solid red; */
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255 255 255);
+    position: sticky;
+    top: 0%;
+    /* background-color: white; */
+    /* gap: 20px; */
+    
+}
+.sec1 .cont1{
+    /* border: 2px solid red; */
+    height: 95px;
+    width: 95%;
+    display: flex;
+    /* justify-content: start; */
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(255 255 255);
+}
+.sec1 .cont1 .blueb{
+    height: 15px;
+    width: 15px;
+    background-color: blue;
+}
+.cont1 .left{
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.cont1 .left h1{
+    font-size: 30px;
+}
+.cont1 .left p{
+    font-size: 18px;
+}
+
+.cont1 .right{
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cont1 .right div a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5;
+    cursor: pointer ;
+}
+.cont1 .right div a:hover{
+    color: blue;
+}
+
+/* ***************************** first section End here ****************************************/
+
+
+/* ***************************** second section start here ****************************************/
+.sec2{
+    /* border: 2px solid black; */
+    height: auto;
+    width: 100%;
+    background-color: rgb(230 218 206);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+.sec2 .heading{
+    /* border: 2px solid rgb(123, 231, 21); */
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.sec2 .heading div{
+    /* border: 2px solid blue; */
+    height: 20px;
+    width: 20px;
+    background-color: rgb(0 80 255);
+    /* margin-bottom: 11px; */
+}
+.sec2 .heading h1{
+    font-size: 40px;
+}
+
+.sec2 .cont2{
+    /* border: 2px solid black; */
+    /* height: 88pc; */
+    width: 50%;
+}
+
+.sec2 .cont2 .top{
+    /* border: 2px solid red; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 450px;
+}
+.sec2 .cont2 .top h1{
+    font-size: 30px;
+    text-decoration: none;
+}
+.sec2 .cont2 .top button{
+    height: 35px;
+    width: 155px;
+    font-size: 16px;
+    border-radius: 50px;
+    background-color: rgb(0 80 255);
+    color: white;    
+}
+.sec2 .cont2 .bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.bottom .card{
+    /* border: 2px solid green; */
+    height: 350px;
+    width: 100%;
+    background-color: white;
+    /* margin-top: 10px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:2px 2px 20px 2px rgb(160, 159, 159) ;
+    /* padding-bottom: 20px; */
+
+}
+.bottom .card .left{
+/* border: 2px solid black; */
+height: 95%;
+width: 33%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 12px;
+/* padding-bottom: 20px; */
+}
+.bottom .card .left h1{
+    /* border: 2px solid red; */
+    color: rgb(0 80 255);
+    width: 200px;
+    font-size: 24px;
+    text-decoration: none;
+    
+}
+.bottom .card .left h2{
+    /* border: 2px solid red; */
+    width: 200px;
+    font-size: 15px;
+    text-align: start;
+}
+
+
+.bottom .card .left p{
+    /* border: 2px solid red; */
+    width: 200px;
+    font-size: 15px;
+    text-align: start;
+}
+.bottom .card .right{
+    /* border: 2px solid black; */
+    height: 95%;
+    width: 58%;
+    display: flex;
+    align-items: center;
+    /* justify-content: start; */
+
+}
+.bottom .card .right div{
+    /* border: 2px solid blue; */
+    /* margin-top: 120px; */
+    display: flex;
+    height: 95%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    
+}
+.bottom .card .right div p{
+    /* border: 2px solid red; */
+    width: 85%;
+    font-size: 16px;
+   
+}
+.sec2 .cont2 .cheading2{
+    /* border: 2px solid brown; */
+    height: 100px;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: end;
+}
+.sec2 .cont2 .cheading2 h1{
+    font-size: 30px;
+    /* text-align: end; */
+    text-decoration: none;
+    
+    
+}
+/* *********************************************************** */
+.bottom .lcard{
+    /* border: 2px solid green; */
+    height: 490px;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    box-shadow:2px 2px 20px 2px rgb(160, 159, 159);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bottom .lcard .cont{
+    /* border: 2px solid black; */
+    height: 80%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.bottom .lcard .cont .content{
+    /* border: 2px solid red;    */
+    height: 49%;
+    width: 90%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+.bottom .lcard .cont .content h1{
+    /* border: 2px solid yellow; */
+    height: 25%;
+    width: 100%;
+    font-size: 25px; 
+}
+.bottom .lcard .cont .content .bcont{
+    /* border: 2px solid green; */
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.content .bcont .left{
+    /* border: 2px solid brown; */
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 5px;
+    /* flex-direction: column; */
+}
+.content .bcont .left .ld{
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+}
+.content .bcont .left .ld div{
+    height: 15px;
+    width: 15px;
+    background-color: blue;
+    gap: 5px;
+}
+.content .bcont .left .lc{
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column; 
+}
+.content .bcont .left .lc p{
+    font-size: 16px;
+}
+.content .bcont .right{
+    /* border: 2px solid brown; */
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 5px;
+}
+.content .bcont .right .ld{
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+}
+.content .bcont .right .ld div{
+    height: 15px;
+    width: 15px;
+    background-color: blue;
+    gap: 5px;
+}
+.content .bcont .right .ld .lower{
+    background-color: white;
+}
+
+.content .bcont .right .lc{
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column; 
+}
+.content .bcont .right .lc p{
+    font-size: 16px;
+}
+
+/* ***************************** second section End here ****************************************/
+
+/* ***************************** footer cont end here ****************************************/
+.sec4{
+    /* border: 2px solid yellow; */
+    height: 110px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* margin-top: 20px; */
+}
+.cont4{
+    /* border: 2px solid black; */
+    height: 99%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cont4 .left p{
+    color: black;
+
+}
+.cont4 .left a{
+    color: black;
+
+}
+.cont4 .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.cont4 .right div{
+    /* border: 2px solid black; */
+    height: 80px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+
+
+}
+.cont4 .right div h1{
+    font-size: 15px;
+}
+.cont4 .right div p{
+    font-size: 15px;
+}
+
+.bbb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+
+}
+.cont4 .right .bottom i{
+    font-size: 15px;
+    
+
+}
