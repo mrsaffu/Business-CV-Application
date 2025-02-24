@@ -1,4 +1,4 @@
-<a href=" https://mrsaffu.github.io/Business-CV-Application/">🚀 InteractiveTextDisplay</a>
+<a href=" https://mrsaffu.github.io/Business-CV-Application/"><h1>🚀 InteractiveTextDisplay</h1></a>
 
 InteractiveTextDisplay is a modern and engaging web application designed to let users display and manipulate text dynamically. Built with HTML, CSS, and JavaScript, this tool enhances user interaction with real-time text modifications, stylish animations, and advanced formatting options.
 
