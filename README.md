@@ -19,7 +19,7 @@ InteractiveTextDisplay is a modern and engaging web application designed to let 
 🚀 Installation & Usage
 
 # Clone this repository
-git clone https://github.com/yourusername/InteractiveTextDisplay.git
+git clone  https://mrsaffu.github.io/Business-CV-Application/
 
 # Navigate to the project folder
 cd InteractiveTextDisplay
