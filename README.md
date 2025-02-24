@@ -1,4 +1,4 @@
-<a href=" https://mrsaffu.github.io/Business-CV-Application/"><h1>🚀 InteractiveTextDisplay</h1></a>
+<a href=" https://mrsaffu.github.io/Business-CV-Application/"><h1 style="cursor : pointer">🚀 InteractiveTextDisplay</h1></a>
 
 InteractiveTextDisplay is a modern and engaging web application designed to let users display and manipulate text dynamically. Built with HTML, CSS, and JavaScript, this tool enhances user interaction with real-time text modifications, stylish animations, and advanced formatting options.
 
@@ -20,8 +20,7 @@ Application domane : https://mrsaffu.github.io/Business-CV-Application/
 
 🚀 Installation & Usage
 
-# Clone this repository
-git clone  https://mrsaffu.github.io/Business-CV-Application/
+
 
 # Navigate to the project folder
 cd InteractiveTextDisplay
